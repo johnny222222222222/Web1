@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos</title>
+</head>
+
+<body>
+
+    <h1>Catálogo de Produtos</h1>
+
+    <p>Área do administrador para gerenciamento dos produtos.</p>
+
+    <hr>
+
+    <h2>Produtos cadastrados</h2>
+
+    <details>
+        <summary><strong>PC Gamer</strong></summary>
+
+        <p>Computador de alto desempenho para jogos e programas pesados.</p>
+
+        <ul>
+            <li>Ryzen 5</li>
+            <li>16 GB de RAM</li>
+            <li>512 GB SSD</li>
+        </ul>
+
+        <p><strong>Preço: R$ 3.999,00</strong></p>
+
+        <button>Editar</button>
+        <button>Remover</button>
+    </details>
+
+    <br>
+
+    <details>
+        <summary><strong>Notebook Profissional</strong></summary>
+
+        <p>Notebook para estudos, trabalho e atividades profissionais.</p>
+
+        <ul>
+            <li>Intel Core i5</li>
+            <li>8 GB de RAM</li>
+            <li>512 GB SSD</li>
+        </ul>
+
+        <p><strong>Preço: R$ 2.999,00</strong></p>
+
+        <button>Editar</button>
+        <button>Remover</button>
+    </details>
+
+    <br>
+
+    <details>
+        <summary><strong>Headset Gamer</strong></summary>
+
+        <p>Headset com microfone para jogos e chamadas.</p>
+
+        <p><strong>Preço: R$ 149,90</strong></p>
+
+        <button>Editar</button>
+        <button>Remover</button>
+    </details>
+
+    <h2>Adicionar produto</h2>
+
+    <form>
+
+        <label for="produto">Nome do produto:</label><br>
+        <input type="text" id="produto" name="produto">
+        <br><br>
+
+        <label for="preco">Preço:</label><br>
+        <input type="number" id="preco" name="preco">
+        <br><br>
+
+        <label for="descricao">Descrição:</label><br>
+        <textarea id="descricao" name="descricao" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <input type="submit" value="Cadastrar produto">
+
+    </form>
+
+    <hr>
+
+    <a href="admin.html">Voltar ao painel</a>
+
+</body>
+
+</html>

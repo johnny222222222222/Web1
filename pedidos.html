@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Pedidos</title>
+</head>
+
+<body>
+
+    <h1>Gerenciar Pedidos</h1>
+
+    <p>Área para acompanhar os pedidos realizados pelos clientes.</p>
+
+    <hr>
+
+    <h2>Pedidos recentes</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Nº Pedido</th>
+            <th>Cliente</th>
+            <th>Produto</th>
+            <th>Valor</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>001</td>
+            <td>João</td>
+            <td>PC Gamer</td>
+            <td>R$ 3.999,00</td>
+            <td>Em análise</td>
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td>Maria</td>
+            <td>Notebook</td>
+            <td>R$ 2.999,00</td>
+            <td>Enviado</td>
+        </tr>
+
+        <tr>
+            <td>003</td>
+            <td>Carlos</td>
+            <td>Headset Gamer</td>
+            <td>R$ 149,90</td>
+            <td>Entregue</td>
+        </tr>
+
+    </table>
+
+    <h2>Atualizar pedido</h2>
+
+    <form>
+
+        <label for="pedido">Número do pedido:</label><br>
+        <input type="number" id="pedido" name="pedido">
+        <br><br>
+
+        <label for="status">Novo status:</label><br>
+
+        <select id="status" name="status">
+            <option value="analise">Em análise</option>
+            <option value="preparacao">Em preparação</option>
+            <option value="enviado">Enviado</option>
+            <option value="entregue">Entregue</option>
+            <option value="cancelado">Cancelado</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Atualizar">
+
+    </form>
+
+    <hr>
+
+    <a href="admin.html">Voltar ao painel</a>
+
+</body>
+
+</html>
