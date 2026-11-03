@@ -1,75 +1,38 @@
 
-/* Configuração geral */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f1f5f9;
-    color: #1e293b;
-    margin: 0;
-    line-height: 1.6;
-}
-
-/* Título principal */
-h1 {
-    background-color: #0f172a;
+header {
+    background-color: blue;
     color: white;
     text-align: center;
-    padding: 30px;
-    margin: 0;
-    font-size: 36px;
+    padding: 20px;
 }
 
-/* Menu de navegação */
 nav {
-    background-color: #1e293b;
+    background-color: black;
+    color: white;
     text-align: center;
-    padding: 18px;
+    padding: 15px;
 }
 
-nav a {
+aside {
+    background-color: lightgray;
+    width: 25%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: white;
+    width: 75%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: blue;
     color: white;
-    text-decoration: none;
-    margin: 8px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #38bdf8;
-}
-
-/* Títulos das seções */
-h2 {
-    color: #0369a1;
-    margin: 25px 20px 10px;
-}
-
-h3 {
-    color: #334155;
-    margin-left: 20px;
-}
-
-/* Parágrafos */
-p {
-    margin: 10px 25px;
-}
-
-/* Links do conteúdo */
-body > a {
-    display: inline-block;
-    background-color: #0284c7;
-    color: white;
-    text-decoration: none;
-    padding: 10px 16px;
-    margin-left: 25px;
-    border-radius: 6px;
-}
-
-body > a:hover {
-    background-color: #075985;
-}
-
-/* Separadores */
-hr {
-    border: none;
-    border-top: 1px solid #cbd5e1;
-    margin: 25px 0;
+    text-align: center;
+    padding: 15px;
+    clear: both;
 }
